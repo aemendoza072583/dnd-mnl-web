@@ -45,7 +45,7 @@ const LoginPage: React.FC = () => {
 
   return (
     <>
-      <PageMeta title={`${import.meta.env.VITE_COMPANY_NAME} | ${pageTitle}`}/>
+      <PageMeta title={`${import.meta.env.COMPANY_NAME} | ${pageTitle}`}/>
       <AuthLayout>
         <div className="flex flex-col flex-1">
           <div className="flex flex-col justify-center flex-1 w-full max-w-md mx-auto">
